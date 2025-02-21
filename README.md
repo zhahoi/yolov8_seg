@@ -78,9 +78,7 @@ $ roslaunch yolov8-seg run.launch
 $ rviz
 ```
 
-![微信截图_20250221135543](C:\Users\HIT-HAYES\Desktop\微信截图_20250221135543.png)
-
-
+![image](https://github.com/zhahoi/yolov8_seg/blob/main/backup/image.png)
 
 ## 合
 
