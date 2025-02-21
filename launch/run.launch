@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <include file="$(find yolov8_seg)/launch/usb_cam.launch"/>
+    <node name="yolov8_seg" pkg="yolov8_seg" type="yolov8_seg" output="screen">
+        <rosparam file="$(find yolov8_seg)/config/config.yaml" command="load" />
+    </node>
+</launch>
